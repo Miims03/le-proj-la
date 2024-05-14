@@ -68,6 +68,7 @@ function Sidebar() {
                             <Route path='/weather' element={<Weather />} />
                             <Route path='/convertor' element={<Convertor />} />
                             <Route path='/dragdrop' element={<DragDrop />} />
+                            <Route path="*" element={<Navigate to="/" />} /> 
                         </Routes>
                     </div>
                 </Content>
