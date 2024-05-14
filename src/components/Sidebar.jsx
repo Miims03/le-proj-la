@@ -5,7 +5,7 @@ import MenuList from './MenuList'
 import ThemeBtn from './ThemeBtn'
 import Logo from './Logo'
 import { MenuUnfoldOutlined, MenuFoldOutlined } from '@ant-design/icons'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 const { Header, Sider, Footer, Content } = Layout
 import Home from './Home'
 import Calculator from './Calculator'
