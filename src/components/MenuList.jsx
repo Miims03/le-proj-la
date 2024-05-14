@@ -21,7 +21,7 @@ const MenuList = ({ darkTheme }) => {
                 key='home'
                 icon={<HomeOutlined />}
             >
-                <Link to='/'>Home</Link>
+                <Link to='/le-proj-la/'>Home</Link>
             </Menu.Item>
 
             {/* Optional */}
@@ -37,16 +37,16 @@ const MenuList = ({ darkTheme }) => {
             {/* Optional */}
 
             <Menu.Item key='calculator'icon={<CalculatorOutlined />}>
-                <Link to='/calculator'>Calculator</Link>
+                <Link to='/le-proj-la/calculator'>Calculator</Link>
             </Menu.Item>
             <Menu.Item key='weather' icon={<SunOutlined />}>
-                <Link to='/weather'>Weather</Link>
+                <Link to='/le-proj-la/weather'>Weather</Link>
             </Menu.Item>
             <Menu.Item key='convertor' icon={<MoneyCollectOutlined />}>
-                <Link to='/convertor'>Convertor</Link>
+                <Link to='/le-proj-la/convertor'>Convertor</Link>
             </Menu.Item>
             <Menu.Item key='dragdrop' icon={<DragOutlined />}>
-                <Link to='/dragdrop'>Drag & Drop</Link>
+                <Link to='/le-proj-la/dragdrop'>Drag & Drop</Link>
             </Menu.Item>
         </Menu>
     )
