@@ -63,11 +63,11 @@ function Sidebar() {
                         }}
                     >
                         <Routes>
-                            <Route path='/' element={<Home />} />
-                            <Route path='/calculator' element={<Calculator />} />
-                            <Route path='/weather' element={<Weather />} />
-                            <Route path='/convertor' element={<Convertor />} />
-                            <Route path='/dragdrop' element={<DragDrop />} />
+                            <Route path='/le-proj-la/' element={<Home />} />
+                            <Route path='/le-proj-la/calculator' element={<Calculator />} />
+                            <Route path='/le-proj-la/weather' element={<Weather />} />
+                            <Route path='/le-proj-la/convertor' element={<Convertor />} />
+                            <Route path='/le-proj-la/dragdrop' element={<DragDrop />} />
                         </Routes>
                     </div>
                 </Content>
