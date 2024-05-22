@@ -12,6 +12,7 @@ import Calculator from './Calculator'
 import Weather from './Weather'
 import Convertor from './Convertor'
 import DragDrop from './DragDrop'
+import Picker from './Picker'
 
 
 function Sidebar() {
@@ -63,11 +64,12 @@ function Sidebar() {
                         }}
                     >
                         <Routes>
-                            <Route path='/le-proj-la/' element={<Home />} />
-                            <Route path='/le-proj-la/calculator' element={<Calculator />} />
-                            <Route path='/le-proj-la/weather' element={<Weather />} />
-                            <Route path='/le-proj-la/convertor' element={<Convertor />} />
-                            <Route path='/le-proj-la/dragdrop' element={<DragDrop />} />
+                        <Route path='/allProj/' element={<Home />} />
+                            <Route path='/allProj/calculator' element={<Calculator />} />
+                            <Route path='/allProj/weather' element={<Weather />} />
+                            {/* <Route path='/allProj/convertor' element={<Convertor />} /> */}
+                            <Route path='/allProj/dragdrop' element={<DragDrop />} />
+                            <Route path='/allProj/calendar' element={<Picker />} />
                         </Routes>
                     </div>
                 </Content>
